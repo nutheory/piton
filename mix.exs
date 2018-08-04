@@ -28,7 +28,7 @@ defmodule Piton.Mixfile do
 
   defp deps() do
     [
-      {:erlport, "~> 0.9.8"},
+      {:erlport, git: "https://github.com/nutheory/erlport.git"},
       {:earmark, ">= 0.0.0", only: :dev},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:poison, ">= 0.0.0", only: :test}
